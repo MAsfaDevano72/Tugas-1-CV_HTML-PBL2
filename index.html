@@ -119,7 +119,7 @@
         .skill .title, .pendidikan .title {
             margin-top: 40px;
         }
-        .tentang h2, .pengalaman h2 {
+        .title2 {
             margin-top: 10px;
             font-size: 28px;
             color: #f7b054;
@@ -130,6 +130,34 @@
             font-size: 15px;
             margin-top: 5px;
             color: black;
+        }
+
+        .pengalaman .box {
+            display: flex;
+            flex-direction: row;
+            margin: 20px 0
+        }
+
+        .pengalaman .box .thn_tmpt {
+            min-width: 150px;
+        }
+        .pengalaman .box .thn_tmpt h5 {
+            font-size: 14px;
+            color: rgb(97, 93, 93);
+            margin-bottom: 10px;
+        }
+        .pengalaman .box .text h4 {
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #fac785;
+            
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        }
+        .pengalaman .box .text p {
+            font-size: 15px;
+            color: black;
+            text-align: justify;
+            line-height: 1.6em;
         }
 
     </style>
@@ -222,7 +250,7 @@
 
             <!-- Tentang Saya -->
             <div class="tentang">
-                <h2>About Me</h2>
+                <h2 class="title2">About Me</h2>
                 <p style="margin-top: 20px; text-align: justify; line-height: 1.6em;">
                     Saya adalah Fresh Graduate yang memiliki minat besar dalam bidang teknologi informasi, khususnya dalam pengembangan web. Saya telah mempelajari berbagai bahasa pemrograman seperti HTML, CSS, dan JavaScript, serta framework seperti Laravel. Saya sangat antusias untuk terus belajar dan mengembangkan keterampilan saya di bidang ini.
                 </p>
@@ -231,7 +259,27 @@
 
             <!-- Pengalaman -->
             <div class="pengalaman">
-                <h2>Experience</h2>
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="thn_tmpt">
+                        <h5>Jun 2022 - Sep 2022</h5>
+                        <h5>Media Computer</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Magang - Teknisi</h4>
+                        <p>Saya memiliki pengalaman magang  selama 3 bulan di Media Computer, disana saya bertugas sebagai Teknisi. Tugas saya disana antara lain, Merakit Komputer dan Menginstalasi aplikasi-aplikasi yang dibutuhkan pelanggan.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="thn_tmpt">
+                        <h5>Mei 2025 - Jul 2025</h5>
+                        <h5>Jabar Istimewa Digital Academy</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Peserta Pelatihan</h4>
+                        <p>Saya pernah mengikuti pelatihan yang diselenggarakan oleh Jabar Istimewa Digital Academy selama 3 bulan secara Online, selama mengikuti pelatihan saya diajari tentang <strong>Next Js dan Generative AI</strong>, dan juga membuat sebuah project web sebagai tugas akhir.</p>
+                    </div>
+                </div>
             </div>
             <!-- End Pengalaman -->
         </div>
